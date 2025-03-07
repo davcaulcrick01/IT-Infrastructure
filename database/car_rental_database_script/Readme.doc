@@ -1,0 +1,15 @@
+## Use Cases Covered
+Users:
+Can sign up, log in, create bookings, leave reviews, and manage their accounts.
+
+Cars:
+Store details about vehicles, including availability, features, pricing, and associated reviews/bookings.
+
+Bookings:
+Record which user booked which car, along with the booking period, total price, and status.
+
+Reviews:
+Allow users to review cars they’ve rented.
+
+Payments:
+Record payment details for each booking.
