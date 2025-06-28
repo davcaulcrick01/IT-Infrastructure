@@ -1,5 +1,5 @@
 resource "aws_iam_role" "ssm_role" {
-  name               = "SSMRole"
+  name = "SSMRole"
   assume_role_policy = jsonencode({
     Version = "2012-10-17",
     Statement = [
@@ -20,8 +20,8 @@ resource "aws_iam_policy" "ssm_policy" {
     Version = "2012-10-17",
     Statement = [
       {
-        Effect   = "Allow",
-        Action   = [
+        Effect = "Allow",
+        Action = [
           "ssm:DescribeInstanceInformation",
           "ssm:SendCommand",
           "ssm:ListCommands",
